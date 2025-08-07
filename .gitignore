@@ -1,0 +1,24 @@
+# Ignore Lambda build artifacts
+lambda.zip
+
+# Node.js dependencies (if applicable)
+node_modules/
+
+# Terraform state and crash logs
+*.tfstate
+*.tfstate.*
+.crash.log
+.terraform/
+terraform.tfvars
+override.tf
+override.tf.json
+
+# Ignore AWS credentials if present (never commit these!)
+.aws/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
